@@ -48,11 +48,11 @@ public class EntrepriseTest {
 
     @ParameterizedTest(name = "TestProportionPonderee")
     @CsvSource({
-            "'2022-12-01',  16",
-            "'2022-07-01', 28",
-            "'2022-07-01', 28",
-            "'2021-01-01', 16",
-            "'2020-01-12', 16"
+            "'2022-12-01',  0.6666666666666667",
+            "'2022-07-01', 0.23333333333333334",
+            "'2022-07-01', 0.23333333333333334",
+            "'2021-01-01',  0.7333333333333333",
+            "'2020-01-12', 0.7333333333333333"
     })
     public void proportionPondereeDuMois(String moisDuConge, double expected){
         //Given
@@ -78,4 +78,5 @@ public class EntrepriseTest {
         //Then
         Assertions.assertThat(verif).isEqualTo(LocalDate.parse(expected));
     }
+
 }
