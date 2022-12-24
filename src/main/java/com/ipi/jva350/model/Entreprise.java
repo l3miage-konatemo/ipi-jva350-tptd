@@ -119,7 +119,7 @@ public final class Entreprise {
         if (mois == 12) {
             proportionPonderee += 8;
         }
-        return proportionPonderee;
+        return proportionPonderee / 12d / 10d;
     }
 
 
