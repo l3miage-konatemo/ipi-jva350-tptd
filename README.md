@@ -143,4 +143,4 @@ une revue de code pas necessaire noté A
 et seulement 3,6% de code identique 
 
 ce qui indique que le code à l'air de compilé et de renvoyer le resultat attendu.
-il se peut que certains KO limit ne sont pas testé, mais on peut dire que les methodes fonctionne.
+il se peut que certains KO limit ne sont pas testé, mais on peut dire que les methodes fonctionnent.
